@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 1, Time elapsed: 93.47 s <<< FAILURE! - in TestSuite
+submitOrder(rahulshettyacademy.SubmitOrderTest)  Time elapsed: 10.383 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of element located by By.cssSelector: .mb-3 (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.120, chrome: {chromedriverVersion: 128.0.6613.119 (6e439cfca4d..., userDataDir: C:\Users\Dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60652}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60652/devtoo..., se:cdpVersion: 128.0.6613.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ac20ca98d23f908b0b416bc5c3cb1151
+	at rahulshettyacademy.SubmitOrderTest.submitOrder(SubmitOrderTest.java:27)
+
