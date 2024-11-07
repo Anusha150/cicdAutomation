@@ -17,6 +17,7 @@ import org.testng.Assert;
 
 public class StandaloneTest {
 
+	//comment lines are added
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		WebDriverManager.chromedriver().setup();
